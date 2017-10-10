@@ -969,8 +969,6 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-console.log("OHAI");
-
 /***/ }),
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {

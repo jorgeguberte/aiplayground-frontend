@@ -22,5 +22,8 @@
     "jest": "^21.2.1",
     "react-test-renderer": "^16.0.0",
     "webpack": "^3.6.0"
+  },
+  "jest":{
+    "setupTestFrameworkScriptFile":"<rootDir>/setupTests.js"
   }
 }
