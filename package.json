@@ -24,12 +24,14 @@
     "enzyme-adapter-react-16": "^1.0.1",
     "file-loader": "^1.1.5",
     "jest": "^21.2.1",
+    "jest-css-modules": "^1.1.0",
     "react-test-renderer": "^16.0.0",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.6.0"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
+    "scriptPreprocessor": "<rootDir>/node_modules/jest-css-modules"
   }
 }

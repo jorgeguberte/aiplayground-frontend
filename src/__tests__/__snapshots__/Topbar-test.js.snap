@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`integrity should render 1`] = `
+<div
+  className="Topbar container-fluid"
+>
+  <span
+    className="Topbar-title"
+  >
+    AIPLAYGROUND
+  </span>
+</div>
+`;
