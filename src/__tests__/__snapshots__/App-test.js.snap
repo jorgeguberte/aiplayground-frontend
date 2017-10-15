@@ -3,5 +3,15 @@
 exports[`Integrity Should render 1`] = `
 <div
   className="App"
-/>
+>
+  <div
+    className="Topbar container-fluid"
+  >
+    <span
+      className="Topbar-title"
+    >
+      AIPLAYGROUND
+    </span>
+  </div>
+</div>
 `;

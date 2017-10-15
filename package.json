@@ -33,6 +33,6 @@
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
-    "scriptPreprocessor": "<rootDir>/node_modules/jest-css-modules"
+    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"}
   }
 }
