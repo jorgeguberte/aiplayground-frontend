@@ -13,5 +13,8 @@ exports[`Integrity Should render 1`] = `
       AIPLAYGROUND
     </span>
   </div>
+  <div
+    className="Sidebar"
+  />
 </div>
 `;

@@ -4,9 +4,11 @@ import renderer from 'react-test-renderer';
 
 import App from '../containers/App';
 import Topbar from '../containers/Topbar';
+import Sidebar from '../containers/Sidebar';
 
 describe('Integrity', ()=>{
     const component = renderer.create(<App/>);
+    const mountedWrapper = mount(<App/>);
 
     test('Should render', ()=>{
         let tree = component.toJSON();
@@ -19,7 +21,11 @@ describe('Integrity', ()=>{
     });
 
     test('should have a Topbar', ()=>{
-        const wrapper = mount(<App/>);
-        expect(wrapper.find(Topbar)).toHaveLength(1);
-    })
+        expect(mountedWrapper.find(Topbar)).toHaveLength(1);
+    });
+
+    test('should have a sidebar', ()=>{
+        expect(mountedWrapper.find(Sidebar)).toHaveLength(1);
+    });
+
 });
