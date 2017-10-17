@@ -4,3 +4,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased !important;
 }
+body{
+    overflow: hidden;
+    height: 100vh;
+}

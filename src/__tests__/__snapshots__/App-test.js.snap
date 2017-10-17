@@ -2,10 +2,10 @@
 
 exports[`Integrity Should render 1`] = `
 <div
-  className="App"
+  className="App container-fluid"
 >
   <div
-    className="Topbar container-fluid"
+    className="Topbar row"
   >
     <span
       className="Topbar-title"
@@ -13,8 +13,5 @@ exports[`Integrity Should render 1`] = `
       AIPLAYGROUND
     </span>
   </div>
-  <div
-    className="Sidebar"
-  />
 </div>
 `;

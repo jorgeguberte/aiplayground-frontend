@@ -2,7 +2,7 @@
 
 exports[`integrity should render 1`] = `
 <div
-  className="Topbar container-fluid"
+  className="Topbar row"
 >
   <span
     className="Topbar-title"

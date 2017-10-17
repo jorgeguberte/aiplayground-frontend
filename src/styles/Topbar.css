@@ -1,13 +1,11 @@
 .Topbar{
-    width: vw;
     background-color: #363f45;
     color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
 }
-.Topbar span{
+/*.Topbar span{
     font-size: 1.1em;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-}
+}*/

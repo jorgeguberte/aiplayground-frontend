@@ -4,7 +4,6 @@ import renderer from 'react-test-renderer';
 
 import App from '../containers/App';
 import Topbar from '../containers/Topbar';
-import Sidebar from '../containers/Sidebar';
 
 describe('Integrity', ()=>{
     const component = renderer.create(<App/>);
